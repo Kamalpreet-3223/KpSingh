@@ -4,4 +4,8 @@ from django.http import HttpResponse
 
 
 def intro(request):
-    return HttpResponse("Hello There")
+    return HttpResponse("<h1>Hello There</h1>")
+
+
+def achievements(request):
+    return HttpResponse("<h1>My Achievements</h1>")

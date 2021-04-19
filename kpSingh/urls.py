@@ -20,4 +20,5 @@ from introduction import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('intro/', views.intro),
+    path('achieve/', views.achievements),
 ]
